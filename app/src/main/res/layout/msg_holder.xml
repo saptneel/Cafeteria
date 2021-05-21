@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/constraintLayout">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/cardView"
+            app:cardCornerRadius="15dp"
+            android:layout_marginHorizontal="10dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imgProfilePic"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_acc"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="240dp"
+            tools:text="sdvbkjbsbv,bbsvkbsvlknslkvnlnlnlsnvdklnlknsnzdn jlllj lj
+            lld sjblh l bh l ldvklnslkdvnlkndvs"
+            android:id="@+id/txtMsg"
+            android:layout_marginHorizontal="10dp"
+            android:background="@drawable/msg"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="5dp"
+            android:textColor="@color/black"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".Profile">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:elevation="20dp"
+        app:cardCornerRadius="120dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25">
+
+        <ImageView
+            android:id="@+id/imgProfilePic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_acc"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btnUploadPic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload Profile Picture"
+        android:layout_marginTop="30dp"
+        android:textAllCaps="false"
+        android:background="@drawable/round_btn"
+        android:paddingHorizontal="20dp"
+        android:textColor="@color/black"
+        android:elevation="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/cardView"
+        app:layout_constraintStart_toStartOf="@+id/cardView"
+        app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+    <Button
+        android:id="@+id/btnLogOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:textAllCaps="false"
+        android:elevation="20dp"
+        android:textColor="@color/black"
+        android:background="@drawable/round_btn"
+        android:paddingHorizontal="20dp"
+        android:layout_marginTop="35dp"
+        app:layout_constraintEnd_toEndOf="@+id/btnUploadPic"
+        app:layout_constraintStart_toStartOf="@+id/btnUploadPic"
+        app:layout_constraintTop_toBottomOf="@+id/btnUploadPic" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

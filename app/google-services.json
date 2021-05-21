@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "324248409836",
+    "firebase_url": "https://appchat-9dfcb-default-rtdb.firebaseio.com",
+    "project_id": "appchat-9dfcb",
+    "storage_bucket": "appchat-9dfcb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:324248409836:android:88054ded5fdb5b951bb7c9",
+        "android_client_info": {
+          "package_name": "com.saptneel.cafeteria"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "324248409836-0etbvsd21g0p69gehrubfgc7lpurbifj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtZwvHMfclg0U0MbVSfArwGSVdy1qxvy0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "324248409836-0etbvsd21g0p69gehrubfgc7lpurbifj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
